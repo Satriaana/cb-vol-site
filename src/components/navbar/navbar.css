@@ -1,0 +1,21 @@
+.bt {
+   
+    font-weight: bold;
+  }
+  
+  
+  .jumbo {
+    text-align: left;
+    height: 900px;
+    background-image: linear-gradient(to top,#D90A64, #DF4623);
+    margin-top: 1%;
+    border-radius: 15px;
+    
+    
+  }
+  .tx {
+    padding-top: 30%;
+  }
+  
+  
+  
