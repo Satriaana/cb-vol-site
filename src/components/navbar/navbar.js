@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse
-, MDBBtn} from "mdbreact";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,MDBBtn } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from './assets/logo/logo.png';
 import '../navbar/navbar.css'; 
@@ -56,12 +55,13 @@ render() {
               <MDBNavLink  to="#!" className="p-3">Login</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>                        
-            <MDBBtn  className="btn-blue bt" style={{borderRadius:"25px"}}>Sign up </MDBBtn>              
+            <MDBBtn  className="btn-blue bt" style={{borderRadius:"25px",fontWeight:"bold"}}>Sign up </MDBBtn>              
             </MDBNavItem>            
           </MDBNavbarNav>
         </MDBCollapse>
-      </MDBNavbar> 
-      
+      </MDBNavbar>       
+    
+       
         </Router>    
   
 
