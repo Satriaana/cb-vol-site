@@ -1,0 +1,15 @@
+.container {
+  text-align: left;
+}
+
+h6 {
+  color: orange;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-size: medium;
+}
