@@ -16,18 +16,17 @@ import cardImg from "./assets/joincardImg.png";
 const JoinCard = () => {
   return (
     <MDBJumbotron
-      fluid
       style={{borderRadius: "15px", backgroundColor: "#2962ff"}}
     >
       <MDBContainer>
         <MDBRow>
-          <MDBCol md="3">
-            <h4 className="display-7 text-white" style={{ fontWeight: "bold" }}>
+          <MDBCol md="9">
+            <h4 className="display-7 text-white d-flex p-2" style={{ fontWeight: "bold" }}>
               You can help shape the future of Open Source
             </h4>
           </MDBCol>
           <MDBCol md="3">
-            <img className="img-fluid" src={cardImg} alt="Join" style={{position: "absolute"}} />
+            <img className="img-fluid" src={cardImg} alt="Join" style={{position: "absolute", overflow: "hidden"}} />
             <MDBBtn
               href="#"
               className="btn-white bt"

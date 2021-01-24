@@ -14,7 +14,7 @@ class Header extends Component {
         >
           <MDBRow className="p-4">
             <MDBCol md="6">
-              <div className="align-items-md-center" style={{paddingTop: "10%"}}>
+              <div className="align-items-mg-center" style={{paddingTop: "10%"}}>
                 <h3
                   className="display-7 text-white"
                   style={{ fontWeight: "bold" }}
@@ -41,7 +41,7 @@ class Header extends Component {
               </div>
             </MDBCol>
             <MDBCol md="6">
-              <img src={head} className="img-fluid" alt="Header" />
+              <img id="headerImg" src={head} className="img-fluid" alt="Header" />
             </MDBCol>
           </MDBRow>
         </MDBJumbotron>

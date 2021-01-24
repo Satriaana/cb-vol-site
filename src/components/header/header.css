@@ -11,3 +11,9 @@
   .tx {
     padding-top: 30%;
   }
+
+  @media (max-width: 767.98px) {
+    #headerImg{
+      display: none;
+    }
+  }
