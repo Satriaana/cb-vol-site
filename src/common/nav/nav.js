@@ -26,7 +26,7 @@ class NavbarPage extends Component {
   render() {
     return (
       <Router>
-        <MDBNavbar light expand="md" style={{boxShadow: "none"}}>
+        <MDBNavbar light expand="md" style={{ boxShadow: "none" }}>
           <MDBContainer>
             <MDBNavbarBrand>
               <img
@@ -56,9 +56,6 @@ class NavbarPage extends Component {
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink to="#!">About</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="#!">Contact</MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
 
