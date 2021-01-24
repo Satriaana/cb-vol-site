@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { MDBBtn, MDBCard, MDBCardBody, /*MDBCardImage,*/ MDBRow, MDBCol, } from 'mdbreact';
-import "./card.css";
+import "./footer.css";
 
-class Card extends Component {
+class Footer extends Component {
   state = {};
   render() {
     return ( 
@@ -27,9 +27,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
-
-
- 
-   
- 
+export default Footer;
