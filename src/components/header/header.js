@@ -35,7 +35,7 @@ class Header extends Component {
                     className="btn-blue bt"
                     style={{ borderRadius: "10px", fontWeight: "bold" }}
                   >
-                    Explore Projects
+                    Apply for Project Positions
                   </MDBBtn>
                 </p>
               </div>

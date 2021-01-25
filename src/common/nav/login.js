@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import {
-  MDBContainer,
   MDBRow,
   MDBCol,
   MDBBtn,
   MDBModal,
   MDBModalBody,
   MDBModalHeader,
-  MDBModalFooter,
 } from "mdbreact";
 
 class ModalLogin extends Component {

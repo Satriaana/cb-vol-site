@@ -9,6 +9,11 @@ import {
   MDBNavbarToggler,
   MDBCollapse,
   MDBBtn,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBIcon,
+  MDBDropdownMenu,
+  MDBDropdownItem,
 } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
 import logo from "./assets/logo/logo.png";
@@ -74,6 +79,18 @@ class NavbarPage extends Component {
                   >
                     Sign up{" "}
                   </MDBBtn>
+                </MDBNavItem>
+                <MDBNavItem className="d-none">
+                  <MDBDropdown>
+                    <MDBDropdownToggle nav caret>
+                      <MDBIcon icon="user" />
+                    </MDBDropdownToggle>
+
+                    <MDBDropdownMenu className="dropdown-default">
+                      <MDBDropdownItem href="#!">Profile</MDBDropdownItem>
+                      <MDBDropdownItem href="#!">Logout</MDBDropdownItem>
+                    </MDBDropdownMenu>
+                  </MDBDropdown>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>
