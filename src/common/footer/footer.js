@@ -1,14 +1,4 @@
-import React, { Component } from "react";
-import {
-  MDBContainer,
-  MDBJumbotron,
-  MDBBtn,
-  MDBRow,
-  MDBCol,
-  MDBFooter,
-} from "mdbreact";
-import JoinCard from "./joincard";
-import footerLogo from "./assets/satLogoFooter.png";
+import footerLogo from './assets/satLogoFooter.png';
 
 class Footer extends Component {
   state = {};
