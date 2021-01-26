@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cb-vol-site/static/css/main.b3e0b76a.chunk.css",
-    "main.js": "/cb-vol-site/static/js/main.c1353a3f.chunk.js",
-    "main.js.map": "/cb-vol-site/static/js/main.c1353a3f.chunk.js.map",
+    "main.js": "/cb-vol-site/static/js/main.c607ea3e.chunk.js",
+    "main.js.map": "/cb-vol-site/static/js/main.c607ea3e.chunk.js.map",
     "runtime-main.js": "/cb-vol-site/static/js/runtime-main.5ff8ad4d.js",
     "runtime-main.js.map": "/cb-vol-site/static/js/runtime-main.5ff8ad4d.js.map",
     "static/css/2.749ec558.chunk.css": "/cb-vol-site/static/css/2.749ec558.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.749ec558.chunk.css",
     "static/js/2.522ce394.chunk.js",
     "static/css/main.b3e0b76a.chunk.css",
-    "static/js/main.c1353a3f.chunk.js"
+    "static/js/main.c607ea3e.chunk.js"
   ]
 }
