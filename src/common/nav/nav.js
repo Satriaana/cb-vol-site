@@ -9,10 +9,16 @@ import {
   MDBNavbarToggler,
   MDBCollapse,
   MDBBtn,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBIcon,
+  MDBDropdownMenu,
+  MDBDropdownItem,
 } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
 import logo from "./assets/logo/logo.png";
 import "../nav/nav.css";
+import ModalLogin from "./login";
 
 class NavbarPage extends Component {
   state = {
@@ -41,7 +47,7 @@ class NavbarPage extends Component {
 
             <MDBNavbarToggler onClick={this.toggleCollapse} />
             <MDBCollapse id="navbarCollapse5" isOpen={this.state.isOpen} navbar>
-              <MDBNavbarNav right className="navb font-weight-bold">
+              <MDBNavbarNav left className="navb font-weight-bold">
                 <MDBNavItem>
                   <MDBNavLink to="#!">Home</MDBNavLink>
                 </MDBNavItem>
@@ -57,13 +63,14 @@ class NavbarPage extends Component {
                 <MDBNavItem>
                   <MDBNavLink to="#!">About</MDBNavLink>
                 </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="#!">Contact</MDBNavLink>
+                </MDBNavItem>
               </MDBNavbarNav>
 
               <MDBNavbarNav right className="navb font-weight-bold">
                 <MDBNavItem>
-                  <MDBNavLink to="#!" className="p-3">
-                    Login
-                  </MDBNavLink>
+                  <ModalLogin />
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBBtn
@@ -72,6 +79,18 @@ class NavbarPage extends Component {
                   >
                     Sign up{" "}
                   </MDBBtn>
+                </MDBNavItem>
+                <MDBNavItem className="d-none">
+                  <MDBDropdown>
+                    <MDBDropdownToggle nav caret>
+                      <MDBIcon icon="user" />
+                    </MDBDropdownToggle>
+
+                    <MDBDropdownMenu className="dropdown-default">
+                      <MDBDropdownItem href="#!">Profile</MDBDropdownItem>
+                      <MDBDropdownItem href="#!">Logout</MDBDropdownItem>
+                    </MDBDropdownMenu>
+                  </MDBDropdown>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>

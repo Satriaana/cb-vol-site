@@ -1,7 +1,12 @@
-import React, { Component } from 'react';
-import { MDBContainer, MDBJumbotron, MDBBtn, MDBRow, MDBCol, MDBFooter } from 'mdbreact';
-import JoinCard from './joincard';
-import footerLogo from './assets/satLogoFooter.png';
+import React, { Component } from "react";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBFooter,
+} from "mdbreact";
+import JoinCard from "./joincard";
+import footerLogo from "./assets/satLogoFooter.png";
 
 class Footer extends Component {
   state = {};
@@ -19,17 +24,17 @@ class Footer extends Component {
                   alt="Satriaana Logo"
                   style={{ width: '80px', marginBottom: '1.4em' }}
                 />
-
-                <p className="text-dark" style={{ fontSize: '15px' }}>
-                  Satriaana is an independent and transparent open-source community and an
-                  organization that respects the privacy of people. We aim to filter open-source
-                  projects for authenticity, while helping other open-source volunteer startups to
-                  rise.
+                <p id="desc" className="text-dark" style={{ fontSize: "15px" }}>
+                  Satriaana is an independent and transparent open-source
+                  community and an organization that respects the privacy of
+                  people. We aim to filter open-source projects for
+                  authenticity, while helping other open-source volunteer
+                  startups to rise.
                 </p>
               </MDBCol>
 
-              <MDBCol lg="2" md="6" className="align-self-start">
-                <h5 className="text-uppercase text-dark">Get Started</h5>
+              <MDBCol lg="2" md="6" className="align-self-start px-md-5" style={{ fontWeight: "bold", fontSize: "15px" }}>
+                <h5 className="text-dark">Get Started</h5>
 
                 <ul className="list-unstyled">
                   <li>
@@ -50,8 +55,8 @@ class Footer extends Component {
                 </ul>
               </MDBCol>
 
-              <MDBCol lg="2" md="6" className="">
-                <h5 className="text-uppercase text-dark">Site Map</h5>
+              <MDBCol lg="2" md="6" className="align-self-start px-md-5" style={{ fontWeight: "bold", fontSize: "15px" }}>
+                <h5 className="text-dark">Site Map</h5>
 
                 <ul className="list-unstyled">
                   <li>

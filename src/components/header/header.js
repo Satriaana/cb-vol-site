@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBJumbotron, MDBBtn, MDBRow, MDBCol } from "mdbreact";
-import head from "./assets/logo/headerImg.png";
 import "./header.css";
 
 class Header extends Component {
@@ -35,13 +34,13 @@ class Header extends Component {
                     className="btn-blue bt"
                     style={{ borderRadius: "10px", fontWeight: "bold" }}
                   >
-                    Explore Projects
+                    Apply for Project Positions
                   </MDBBtn>
                 </p>
               </div>
             </MDBCol>
             <MDBCol md="6">
-              <img id="headerImg" src={head} className="img-fluid" alt="Header" />
+              <img id="headerImg" src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/headerImg.png?alt=media&token=7f1bae22-6308-4144-b321-3bead5e26436" className="img-fluid" alt="Header" />
             </MDBCol>
           </MDBRow>
         </MDBJumbotron>
