@@ -7,7 +7,6 @@ import {
   MDBModal,
   MDBModalBody,
   MDBModalHeader,
-  MDBModalFooter,
 } from "mdbreact";
 
 class ModalApplication extends Component {
@@ -48,9 +47,9 @@ class ModalApplication extends Component {
                     class="row g-3 pageclip-form"
                     method="post"
                   >
-                    <h6 class="modal-title" style={{ fontWeight: "bold" }}>
+                    <h5 class="modal-title" style={{ fontWeight: "bold" }}>
                       Contact Details
-                    </h6>
+                    </h5>
                     <div class="col-md-12">
                       <label htmlFor="inputName" className="grey-text">
                         Name
@@ -99,14 +98,14 @@ class ModalApplication extends Component {
                       />
                     </div>
                     <div class="col-md-4">
-                      <label
-                        for="inputCountry"
-                        class="form-label"
-                        required
-                      >
+                      <label for="inputCountry" class="form-label" required>
                         Country
                       </label>
-                      <select id="inputCountry" class="form-select" name="Country">
+                      <select
+                        id="inputCountry"
+                        class="form-select"
+                        name="Country"
+                      >
                         <option selected>Choose...</option>
                         <option value="Afganistan">Afghanistan</option>
                         <option value="Albania">Albania</option>
@@ -410,9 +409,9 @@ class ModalApplication extends Component {
                         <option value="Zimbabwe">Zimbabwe</option>
                       </select>
                     </div>
-                    <h6 class="modal-title" style={{ fontWeight: "bold" }}>
+                    <h5 class="modal-title" style={{ fontWeight: "bold" }}>
                       Volunteer Experience
-                    </h6>
+                    </h5>
                     <div class="col-md-6">
                       <label for="inputTeam" class="form-label">
                         Preferred Position
@@ -420,7 +419,7 @@ class ModalApplication extends Component {
                       <select
                         class="form-select"
                         aria-label="Default select example"
-                        name="Preferred position"
+                        name="Preferred Project Position"
                         required
                       >
                         <option selected>
@@ -463,7 +462,7 @@ class ModalApplication extends Component {
                         Highest Qualification
                       </label>
                       <select
-                        name="Educational qualification"
+                        name="Educational Qualification"
                         class="form-select"
                         aria-label="Default select example"
                       >
@@ -489,21 +488,21 @@ class ModalApplication extends Component {
                       />
                     </div>
                     <div className="text-right mt-4">
-                      <button
+                      <MDBBtn
                         className="btn-grey bt"
                         style={{ borderRadius: "10px", fontWeight: "bold" }}
                         type="button"
-                        data-mdb-dismiss="modal"
+                        onClick={this.toggle}
                       >
                         Cancel
-                      </button>
-                      <button
+                      </MDBBtn>
+                      <MDBBtn
                         type="submit"
                         className="btn-blue bt pageclip-form__submit"
                         style={{ borderRadius: "10px", fontWeight: "bold" }}
                       >
                         <span>Submit</span>
-                      </button>
+                      </MDBBtn>
                     </div>
                   </form>
                 </MDBCol>
