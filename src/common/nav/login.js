@@ -23,14 +23,14 @@ class ModalLogin extends Component {
           type="button"
           class="btn btn-link"
           data-mdb-toggle="modal"
-          data-mdb-target="#exampleModal"
+          data-mdb-target="#loginModal"
           style={{ fontWeight: "bold", textDecoration: "none" }}
         >
           Login
         </button>
         <div
           class="modal fade"
-          id="exampleModal"
+          id="loginModal"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"

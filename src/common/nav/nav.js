@@ -19,6 +19,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import logo from "./assets/logo/logo.png";
 import "../nav/nav.css";
 import ModalLogin from "./login";
+import ModalSignUp from "./signup";
 
 class NavbarPage extends Component {
   state = {
@@ -73,12 +74,7 @@ class NavbarPage extends Component {
                   <ModalLogin />
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBBtn
-                    className="btn-blue bt"
-                    style={{ borderRadius: "10px", fontWeight: "bold" }}
-                  >
-                    Sign up{" "}
-                  </MDBBtn>
+                  <ModalSignUp />
                 </MDBNavItem>
                 <MDBNavItem className="d-none">
                   <MDBDropdown>
