@@ -127,7 +127,7 @@ class Pills extends Component {
                         aria-controls="flush-collapseTwo"
                         style={{fontWeight: "bold"}}
                       >
-                        How to sign up on projects platform?
+                        Do I have to be a volunteer to apply for positions?
                       </button>
                     </h2>
                     <div
@@ -163,7 +163,7 @@ class Pills extends Component {
                         aria-controls="flush-collapseThree"
                         style={{fontWeight: "bold"}}
                       >
-                          Do I have to be signed up in order to apply for project positions?
+                          What are project positions?
                       </button>
                     </h2>
                     <div
@@ -198,23 +198,23 @@ class Pills extends Component {
                   id="accordionFlushExample"
                 >
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
+                    <h2 class="accordion-header" id="flush-heading4">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-mdb-toggle="collapse"
-                        data-mdb-target="#flush-collapseOne"
+                        data-mdb-target="#flush-collapse4"
                         aria-expanded="false"
-                        aria-controls="flush-collapseOne"
+                        aria-controls="flush-collapse4"
                         style={{fontWeight: "bold"}}
                       >
                         Lorem Ipsum dolor sit amet
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseOne"
+                      id="flush-collapse4"
                       class="accordion-collapse collapse"
-                      aria-labelledby="flush-headingOne"
+                      aria-labelledby="flush-heading4"
                       data-mdb-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
@@ -234,23 +234,23 @@ class Pills extends Component {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
+                    <h2 class="accordion-header" id="flush-heading5">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-mdb-toggle="collapse"
-                        data-mdb-target="#flush-collapseTwo"
+                        data-mdb-target="#flush-collapse5"
                         aria-expanded="false"
-                        aria-controls="flush-collapseTwo"
+                        aria-controls="flush-collapse5"
                         style={{fontWeight: "bold"}}
                       >
                         Lorem Ipsum dolor sit amet
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseTwo"
+                      id="flush-collapse5"
                       class="accordion-collapse collapse"
-                      aria-labelledby="flush-headingTwo"
+                      aria-labelledby="flush-heading5"
                       data-mdb-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
@@ -270,23 +270,23 @@ class Pills extends Component {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
+                    <h2 class="accordion-header" id="flush-heading6">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-mdb-toggle="collapse"
-                        data-mdb-target="#flush-collapseThree"
+                        data-mdb-target="#flush-collapse6"
                         aria-expanded="false"
-                        aria-controls="flush-collapseThree"
+                        aria-controls="flush-collapse6"
                         style={{fontWeight: "bold"}}
                       >
                           Lorem Ipsum dolor sit amet
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseThree"
+                      id="flush-collapse6"
                       class="accordion-collapse collapse"
-                      aria-labelledby="flush-headingThree"
+                      aria-labelledby="flush-heading6"
                       data-mdb-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
@@ -315,23 +315,23 @@ class Pills extends Component {
                   id="accordionFlushExample"
                 >
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
+                    <h2 class="accordion-header" id="flush-heading7">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-mdb-toggle="collapse"
-                        data-mdb-target="#flush-collapseOne"
+                        data-mdb-target="#flush-collapse7"
                         aria-expanded="false"
-                        aria-controls="flush-collapseOne"
+                        aria-controls="flush-collapse7"
                         style={{fontWeight: "bold"}}
                       >
                         Lorem Ipsum dolor sit amet
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseOne"
+                      id="flush-collapse7"
                       class="accordion-collapse collapse"
-                      aria-labelledby="flush-headingOne"
+                      aria-labelledby="flush-heading7"
                       data-mdb-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
@@ -351,23 +351,23 @@ class Pills extends Component {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
+                    <h2 class="accordion-header" id="flush-heading8">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-mdb-toggle="collapse"
-                        data-mdb-target="#flush-collapseTwo"
+                        data-mdb-target="#flush-collapse8"
                         aria-expanded="false"
-                        aria-controls="flush-collapseTwo"
+                        aria-controls="flush-collapse8"
                         style={{fontWeight: "bold"}}
                       >
                         Lorem Ipsum dolor sit amet
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseTwo"
+                      id="flush-collapse8"
                       class="accordion-collapse collapse"
-                      aria-labelledby="flush-headingTwo"
+                      aria-labelledby="flush-heading8"
                       data-mdb-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
@@ -387,23 +387,23 @@ class Pills extends Component {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
+                    <h2 class="accordion-header" id="flush-heading9">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-mdb-toggle="collapse"
-                        data-mdb-target="#flush-collapseThree"
+                        data-mdb-target="#flush-collapse9"
                         aria-expanded="false"
-                        aria-controls="flush-collapseThree"
+                        aria-controls="flush-collapse9"
                         style={{fontWeight: "bold"}}
                       >
                           Lorem Ipsum dolor sit amet
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseThree"
+                      id="flush-collapse9"
                       class="accordion-collapse collapse"
-                      aria-labelledby="flush-headingThree"
+                      aria-labelledby="flush-heading9"
                       data-mdb-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
