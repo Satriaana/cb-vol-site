@@ -22,14 +22,14 @@ class Header extends Component {
                   className="display-7 text-white"
                   style={{ fontWeight: "bold" }}
                 >
-                  Find a project of your choice.
+                  Ready to take your volunteer experience to next level?
                 </h3>
-                <h3
+                {/* <h3
                   className="display-7 text-white"
                   style={{ fontWeight: "bold" }}
                 >
-                  Assign yourself.
-                </h3>
+                  We are recruiting for project positions
+                </h3> */}
                 <h4 className="lead text-white">
                   Get the most out of being a volunteer at Satriaana
                 </h4>
