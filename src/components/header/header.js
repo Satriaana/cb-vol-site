@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBJumbotron, MDBBtn, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBJumbotron, MDBRow, MDBCol } from "mdbreact";
 import "./header.css";
+import ModalApplication from "./application";
 
 class Header extends Component {
   state = {};
@@ -13,7 +14,10 @@ class Header extends Component {
         >
           <MDBRow className="p-4">
             <MDBCol md="6">
-              <div className="align-items-mg-center" style={{paddingTop: "10%"}}>
+              <div
+                className="align-items-mg-center"
+                style={{ paddingTop: "10%" }}
+              >
                 <h3
                   className="display-7 text-white"
                   style={{ fontWeight: "bold" }}
@@ -29,18 +33,18 @@ class Header extends Component {
                 <h4 className="lead text-white">
                   Get the most out of being a volunteer at Satriaana
                 </h4>
-                <p className="lead">
-                  <MDBBtn
-                    className="btn-blue bt"
-                    style={{ borderRadius: "10px", fontWeight: "bold" }}
-                  >
-                    Apply for Project Positions
-                  </MDBBtn>
-                </p>
+                <div className="lead">
+                  <ModalApplication />
+                </div>
               </div>
             </MDBCol>
             <MDBCol md="6">
-              <img id="headerImg" src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/headerImg.png?alt=media&token=7f1bae22-6308-4144-b321-3bead5e26436" className="img-fluid" alt="Header" />
+              <img
+                id="headerImg"
+                src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/headerImg.png?alt=media&token=7f1bae22-6308-4144-b321-3bead5e26436"
+                className="img-fluid"
+                alt="Header"
+              />
             </MDBCol>
           </MDBRow>
         </MDBJumbotron>
