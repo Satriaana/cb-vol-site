@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import {
-  MDBRow,
-  MDBCol,
-  MDBBtn,
-} from "mdbreact";
+import { MDBRow, MDBCol, MDBBtn } from "mdbreact";
 
 class ModalLogin extends Component {
   state = {

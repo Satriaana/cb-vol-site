@@ -20,8 +20,13 @@ class ModalApplication extends Component {
     });
   };
 
+  submitAlert = () => {
+    alert("Your application will be submitted for review");
+  };
+
   render() {
     return (
+      
       <div>
         {/* BUTTON */}
         <MDBBtn
@@ -46,6 +51,7 @@ class ModalApplication extends Component {
                     action="https://send.pageclip.co/QoSFUpa7Ai1XuIYDe8XQc1mGXWgvaAnB"
                     class="row g-3 pageclip-form"
                     method="post"
+                    onSubmit={this.submitAlert}
                   >
                     <h5 class="modal-title" style={{ fontWeight: "bold" }}>
                       Contact Details
@@ -80,9 +86,10 @@ class ModalApplication extends Component {
                       </label>
                       <input
                         name="Mobile Number"
-                        type="number"
+                        type="tel"
                         class="form-control"
                         id="inputMobile"
+                        // pattern="[+ 0-9]{14}"
                         required
                       />
                     </div>
