@@ -8,7 +8,6 @@ import {
   MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBBtn,
   MDBDropdown,
   MDBDropdownToggle,
   MDBIcon,
@@ -50,7 +49,7 @@ class NavbarPage extends Component {
             <MDBCollapse id="navbarCollapse5" isOpen={this.state.isOpen} navbar>
               <MDBNavbarNav left className="navb font-weight-bold">
                 <MDBNavItem>
-                  <MDBNavLink to="#!">Home</MDBNavLink>
+                  <MDBNavLink to="/">Home</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink to="#!">Blog</MDBNavLink>
@@ -59,7 +58,7 @@ class NavbarPage extends Component {
                   <MDBNavLink to="#!">Forum</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#!">Projects</MDBNavLink>
+                  <MDBNavLink to="/">Projects</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink to="#!">About</MDBNavLink>
