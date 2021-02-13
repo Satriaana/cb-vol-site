@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Project  profile for volunteers
+* This site includes Project profiles of Satriaana volunteers.
+* Volunteers of Satriaana should create a profile on this site.
+* Any volunteer of Satriaana can apply for a position in a project conducted by Satriaana through this site.
+* Admins can create new projects and update existing projects via this site.
+* Volunteers can check their profiles once they are logged in.
+* They can see the history of their projects in their respective profiles.
+
+## Instruction for the developing site.
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
