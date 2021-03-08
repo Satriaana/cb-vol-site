@@ -1,3 +1,6 @@
+![Build Version](https://img.shields.io/badge/V-1.0.0-brightgreen)
+![Build](https://img.shields.io/badge/Status-Stable-brightgreen)
+
 # Project  profile for volunteers
 * This site includes Project profiles of Satriaana volunteers.
 * Volunteers of Satriaana should create a profile on this site.
